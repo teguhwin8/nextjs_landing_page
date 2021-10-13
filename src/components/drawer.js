@@ -17,7 +17,13 @@ export default function Drawer ({
   ...props
 }) {
   return (
-    <h1>Drawer</h1>
+    <Fragment>
+      <RcDrawer
+        open={open}
+      >
+
+      </RcDrawer>
+    </Fragment>
   );
 };
 
